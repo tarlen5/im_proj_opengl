@@ -7,4 +7,4 @@ Requires two additional libraries installed:
 
   * glm for OpenGL: http://glm.g-truc.net/0.9.7/index.html
 
-To comply with the Makefile, install these into im_proj_opengl/third_party.
+To comply with the Makefile, install these into im_proj_opengl/third_party.OB
