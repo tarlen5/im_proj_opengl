@@ -1,0 +1,316 @@
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{"cam_distortion": -2.259, "cam_fovy": 8.42732, "cam_position": [6.29386, 49.6704, 118.246], "cam_rotation": [-0.366451, 0.266971, -0.0044779], "cam_principal_point": [512.732, 214.948], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0644868}
+{"cam_distortion": -1.99596, "cam_fovy": 8.60954, "cam_position": [5.63174, 48.9481, 116.748], "cam_rotation": [-0.380571, 0.273598, -0.00486222], "cam_principal_point": [483.353, 269.095], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.129282}
+{"cam_distortion": -1.66302, "cam_fovy": 8.8967, "cam_position": [4.96963, 47.4266, 113.436], "cam_rotation": [-0.40488, 0.263714, -0.00463636], "cam_principal_point": [523.664, 359.488], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0551214}
+{"cam_distortion": -2.0527, "cam_fovy": 8.86126, "cam_position": [5.55294, 48.7364, 115.361], "cam_rotation": [-0.376674, 0.270441, -0.00489497], "cam_principal_point": [502.496, 248.571], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.00573872}
+{"cam_distortion": -1.54338, "cam_fovy": 9.23384, "cam_position": [4.38551, 46.5608, 111.581], "cam_rotation": [-0.414752, 0.26579, -0.0042728], "cam_principal_point": [517.161, 391.818], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.045871}
+{"cam_distortion": -2.13771, "cam_fovy": 8.99414, "cam_position": [5.79594, 49.0882, 116.258], "cam_rotation": [-0.369314, 0.271738, -0.00510655], "cam_principal_point": [500.262, 223.487], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.013512}
+{"cam_distortion": -1.76873, "cam_fovy": 9.27675, "cam_position": [4.88078, 47.6117, 113.456], "cam_rotation": [-0.392009, 0.267953, -0.0041722], "cam_principal_point": [511.576, 308.545], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0526915}
+{"cam_distortion": -2.06365, "cam_fovy": 9.20263, "cam_position": [5.69104, 48.929, 115.826], "cam_rotation": [-0.372814, 0.271, -0.00477063], "cam_principal_point": [504.824, 236.371], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0162537}
+{"cam_distortion": -2.05434, "cam_fovy": 9.28146, "cam_position": [5.66862, 49.024, 116.063], "cam_rotation": [-0.373604, 0.27377, -0.00504161], "cam_principal_point": [494.098, 238.838], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.00477798}
+{"cam_distortion": -1.91948, "cam_fovy": 9.4843, "cam_position": [5.27726, 48.3577, 114.47], "cam_rotation": [-0.379717, 0.272033, -0.00491169], "cam_principal_point": [502.237, 259.845], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.012088}
+{"cam_distortion": -1.79327, "cam_fovy": 9.6538, "cam_position": [4.97199, 47.9773, 113.403], "cam_rotation": [-0.385667, 0.270999, -0.0044741], "cam_principal_point": [506.516, 278.444], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0148168}
+{"cam_distortion": -1.77354, "cam_fovy": 9.77813, "cam_position": [4.84617, 47.7734, 112.973], "cam_rotation": [-0.388809, 0.27301, -0.00513007], "cam_principal_point": [500.288, 288.512], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0212703}
+{"cam_distortion": -1.96663, "cam_fovy": 9.68333, "cam_position": [5.51115, 48.8002, 115.491], "cam_rotation": [-0.375444, 0.274319, -0.00510441], "cam_principal_point": [496.312, 245.96], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0117051}
+{"cam_distortion": -1.91428, "cam_fovy": 9.84105, "cam_position": [5.28323, 48.4279, 114.606], "cam_rotation": [-0.379433, 0.274296, -0.00516968], "cam_principal_point": [498.373, 259.113], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.00919082}
+{"cam_distortion": -1.9065, "cam_fovy": 9.90385, "cam_position": [5.35316, 48.5496, 114.905], "cam_rotation": [-0.377527, 0.275665, -0.00515381], "cam_principal_point": [495.478, 253.398], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0083872}
+{"cam_distortion": -1.81258, "cam_fovy": 10.0087, "cam_position": [5.31018, 48.5366, 114.696], "cam_rotation": [-0.380838, 0.278161, -0.00559327], "cam_principal_point": [488.832, 262.355], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0130605}
+{"cam_distortion": -1.87891, "cam_fovy": 10.0726, "cam_position": [5.40827, 48.6887, 115.153], "cam_rotation": [-0.37951, 0.276528, -0.00513782], "cam_principal_point": [494.237, 259.66], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0136202}
+{"cam_distortion": -1.73839, "cam_fovy": 10.2266, "cam_position": [5.11885, 48.3509, 114.359], "cam_rotation": [-0.383611, 0.278055, -0.00507179], "cam_principal_point": [489.555, 272.242], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0133364}
+{"cam_distortion": -1.70466, "cam_fovy": 10.333, "cam_position": [5.01859, 48.2252, 114.147], "cam_rotation": [-0.386095, 0.27932, -0.00528009], "cam_principal_point": [486.37, 280.002], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.00550606}
+{"cam_distortion": -1.68261, "cam_fovy": 10.4568, "cam_position": [4.95548, 48.0728, 113.775], "cam_rotation": [-0.386295, 0.280181, -0.00553638], "cam_principal_point": [486.309, 280.247], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.00692157}
+{"cam_distortion": -1.65481, "cam_fovy": 10.5413, "cam_position": [4.98782, 48.1076, 113.811], "cam_rotation": [-0.387872, 0.280641, -0.00564915], "cam_principal_point": [487.38, 284.71], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0148769}
+{"cam_distortion": -1.73993, "cam_fovy": 10.5024, "cam_position": [5.35926, 48.7004, 115.29], "cam_rotation": [-0.380241, 0.280977, -0.00513494], "cam_principal_point": [487.686, 263.039], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.00559546}
+{"cam_distortion": -1.67555, "cam_fovy": 10.6522, "cam_position": [5.12959, 48.3472, 114.417], "cam_rotation": [-0.384352, 0.282151, -0.00565245], "cam_principal_point": [485.899, 274.734], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0132574}
+{"cam_distortion": -1.64154, "cam_fovy": 10.7555, "cam_position": [5.02304, 48.1861, 114.064], "cam_rotation": [-0.385191, 0.281974, -0.00502891], "cam_principal_point": [488.533, 278.199], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0178023}
+{"cam_distortion": -1.62044, "cam_fovy": 10.7908, "cam_position": [5.16593, 48.3691, 114.487], "cam_rotation": [-0.382975, 0.280503, -0.0043646], "cam_principal_point": [495.58, 272.657], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0284079}
+{"cam_distortion": -1.63348, "cam_fovy": 10.9133, "cam_position": [5.00473, 48.2106, 114.082], "cam_rotation": [-0.386043, 0.284359, -0.0055149], "cam_principal_point": [485.114, 280.125], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.00551402}
+{"cam_distortion": -1.56497, "cam_fovy": 11.0233, "cam_position": [4.90518, 47.9655, 113.573], "cam_rotation": [-0.387966, 0.283576, -0.00516999], "cam_principal_point": [490.688, 286.487], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0121739}
+{"cam_distortion": -1.59079, "cam_fovy": 11.0751, "cam_position": [4.98871, 48.0733, 113.863], "cam_rotation": [-0.387595, 0.284698, -0.00556646], "cam_principal_point": [489.475, 285.067], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0203221}
+{"cam_distortion": -1.61678, "cam_fovy": 10.9812, "cam_position": [5.5313, 48.7989, 115.61], "cam_rotation": [-0.378577, 0.285521, -0.00552759], "cam_principal_point": [489.889, 259.68], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0179905}
+{"cam_distortion": -1.59601, "cam_fovy": 11.2097, "cam_position": [5.09174, 48.1621, 114.024], "cam_rotation": [-0.389192, 0.286628, -0.00662052], "cam_principal_point": [488.336, 287.94], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0147529}
+{"cam_distortion": -1.66007, "cam_fovy": 11.1532, "cam_position": [5.49411, 48.8452, 115.55], "cam_rotation": [-0.380351, 0.287765, -0.00567471], "cam_principal_point": [486.783, 263.574], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0158293}
+{"cam_distortion": -1.66619, "cam_fovy": 11.1948, "cam_position": [5.67326, 49.0499, 115.978], "cam_rotation": [-0.378759, 0.289241, -0.00616811], "cam_principal_point": [485.255, 258.762], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.021223}
+{"cam_distortion": -1.62088, "cam_fovy": 11.284, "cam_position": [5.57569, 48.9221, 115.873], "cam_rotation": [-0.37551, 0.287594, -0.00523649], "cam_principal_point": [490.89, 251.998], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0355486}
+{"cam_distortion": -1.64509, "cam_fovy": 11.3649, "cam_position": [5.60759, 48.9416, 115.846], "cam_rotation": [-0.377519, 0.288778, -0.00574134], "cam_principal_point": [489.934, 256.755], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0183174}
+{"cam_distortion": -1.60033, "cam_fovy": 11.4781, "cam_position": [5.50898, 48.8417, 115.463], "cam_rotation": [-0.37926, 0.289965, -0.00569487], "cam_principal_point": [489.067, 260.573], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0260061}
+{"cam_distortion": -1.58968, "cam_fovy": 11.6335, "cam_position": [5.27344, 48.4827, 114.667], "cam_rotation": [-0.383171, 0.290651, -0.00606223], "cam_principal_point": [488.77, 271.085], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0257987}
+{"cam_distortion": -1.59102, "cam_fovy": 11.7115, "cam_position": [5.32018, 48.4588, 114.69], "cam_rotation": [-0.383481, 0.291751, -0.00675933], "cam_principal_point": [488.074, 271.826], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0196618}
+{"cam_distortion": -1.49468, "cam_fovy": 12.0612, "cam_position": [4.51505, 47.4061, 112.121], "cam_rotation": [-0.398206, 0.294151, -0.00658564], "cam_principal_point": [484.197, 309.342], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.133969}
+{"cam_distortion": -1.58143, "cam_fovy": 11.7917, "cam_position": [5.55191, 48.8586, 115.54], "cam_rotation": [-0.37865, 0.293607, -0.00585658], "cam_principal_point": [488.527, 259.098], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0196528}
+{"cam_distortion": -1.5005, "cam_fovy": 12.1677, "cam_position": [4.63888, 47.6783, 112.75], "cam_rotation": [-0.395617, 0.296328, -0.00648228], "cam_principal_point": [482.606, 302.405], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.126926}
+{"cam_distortion": -1.57513, "cam_fovy": 12.0826, "cam_position": [5.14223, 48.3445, 114.408], "cam_rotation": [-0.383667, 0.295312, -0.00571503], "cam_principal_point": [488.327, 273.271], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0158833}
+{"cam_distortion": -1.58003, "cam_fovy": 12.1441, "cam_position": [5.23892, 48.4711, 114.682], "cam_rotation": [-0.382341, 0.29762, -0.00598753], "cam_principal_point": [485.849, 269.538], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0179713}
+{"cam_distortion": -1.58546, "cam_fovy": 12.2017, "cam_position": [5.36704, 48.6214, 114.967], "cam_rotation": [-0.379391, 0.299779, -0.00612389], "cam_principal_point": [484.534, 261.442], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0165698}
+{"cam_distortion": -1.32731, "cam_fovy": 13.172, "cam_position": [2.83523, 45.3517, 107.539], "cam_rotation": [-0.437608, 0.309044, -0.00632644], "cam_principal_point": [463.483, 401.215], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.314027}
+{"cam_distortion": -1.5081, "cam_fovy": 12.456, "cam_position": [4.93757, 48.1429, 114.07], "cam_rotation": [-0.382394, 0.300787, -0.00519208], "cam_principal_point": [488.052, 270.688], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.00303374}
+{"cam_distortion": -1.42814, "cam_fovy": 13.0538, "cam_position": [3.61323, 46.4678, 109.919], "cam_rotation": [-0.413253, 0.308677, -0.00646851], "cam_principal_point": [472.63, 342.172], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.304589}
+{"cam_distortion": -1.52708, "cam_fovy": 12.682, "cam_position": [4.9644, 48.1854, 113.897], "cam_rotation": [-0.38944, 0.307252, -0.00644477], "cam_principal_point": [481.483, 285.813], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0775414}
+{"cam_distortion": -1.4556, "cam_fovy": 13.1384, "cam_position": [3.91812, 46.8073, 110.793], "cam_rotation": [-0.410141, 0.310174, -0.00669574], "cam_principal_point": [478.555, 335.087], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.175954}
+{"cam_distortion": -1.46199, "cam_fovy": 13.0471, "cam_position": [4.41316, 47.4717, 112.372], "cam_rotation": [-0.400407, 0.312062, -0.00662357], "cam_principal_point": [479.636, 312.678], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.144292}
+{"cam_distortion": -1.51763, "cam_fovy": 12.8076, "cam_position": [5.37807, 48.5964, 115.218], "cam_rotation": [-0.381485, 0.310173, -0.00576773], "cam_principal_point": [491.878, 269.683], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0141191}
+{"cam_distortion": -1.50433, "cam_fovy": 13.0357, "cam_position": [4.99966, 48.2485, 114.213], "cam_rotation": [-0.386356, 0.316056, -0.00646759], "cam_principal_point": [484.052, 279.36], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.142159}
+{"cam_distortion": -1.48344, "cam_fovy": 13.4862, "cam_position": [3.91438, 47.0846, 111.553], "cam_rotation": [-0.413965, 0.31906, -0.00504848], "cam_principal_point": [481.771, 344.13], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.309352}
+{"cam_distortion": -1.50445, "cam_fovy": 13.1255, "cam_position": [5.34173, 48.5715, 115.03], "cam_rotation": [-0.383681, 0.32125, -0.00652916], "cam_principal_point": [488.144, 273.611], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0175221}
+{"cam_distortion": -1.38182, "cam_fovy": 13.726, "cam_position": [3.68074, 46.6523, 110.363], "cam_rotation": [-0.415427, 0.330844, -0.00701404], "cam_principal_point": [474.044, 344.09], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.337523}
+{"cam_distortion": -1.27327, "cam_fovy": 13.8161, "cam_position": [3.39391, 46.2091, 109.677], "cam_rotation": [-0.425307, 0.332245, -0.00689452], "cam_principal_point": [479.619, 368.531], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.28695}
+{"cam_distortion": -1.56276, "cam_fovy": 13.1223, "cam_position": [5.56275, 48.8523, 115.446], "cam_rotation": [-0.383774, 0.333181, -0.00622477], "cam_principal_point": [490.391, 273.672], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0403354}
+{"cam_distortion": -1.51023, "cam_fovy": 13.5264, "cam_position": [4.11484, 47.5113, 112.264], "cam_rotation": [-0.409694, 0.338524, -0.00486671], "cam_principal_point": [484.323, 333.485], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.447288}
+{"cam_distortion": -1.51013, "cam_fovy": 12.9321, "cam_position": [5.91822, 49.3289, 117.076], "cam_rotation": [-0.385735, 0.333443, -0.00431204], "cam_principal_point": [509.402, 283.157], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0972931}
+{"cam_distortion": -1.51023, "cam_fovy": 13.0486, "cam_position": [5.721925, 48.95784999999999, 115.98849999999999], "cam_rotation": [-0.38919349999999997, 0.34492049999999996, -0.005730104999999999], "cam_principal_point": [498.113, 289.17999999999995], "cam_dimensions": [960, 540], "cam_reprojection_error": 1.07713}
+{"cam_distortion": -1.51033, "cam_fovy": 13.1651, "cam_position": [5.52563, 48.5868, 114.901], "cam_rotation": [-0.392652, 0.356398, -0.00714817], "cam_principal_point": [486.824, 295.203], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.133882}
+{"cam_distortion": -1.70712, "cam_fovy": 13.072, "cam_position": [5.72369, 49.1809, 116.057], "cam_rotation": [-0.388352, 0.36905, -0.00712627], "cam_principal_point": [466.091, 283.326], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.469635}
+{"cam_distortion": -1.55684, "cam_fovy": 13.0177, "cam_position": [6.09052, 49.1161, 116.17], "cam_rotation": [-0.384187, 0.36958, -0.00837373], "cam_principal_point": [480.473, 275.411], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.161405}
+{"cam_distortion": -1.54159, "cam_fovy": 12.8694, "cam_position": [6.6345, 49.454, 117.178], "cam_rotation": [-0.380591, 0.375824, -0.0088334], "cam_principal_point": [479.199, 268.988], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0410577}
+{"cam_distortion": -1.4962666666666666, "cam_fovy": 13.121766666666668, "cam_position": [5.7245566666666665, 48.684066666666666, 115.29966666666667], "cam_rotation": [-0.38988733333333336, 0.3768976666666667, -0.00748982], "cam_principal_point": [485.36466666666666, 290.977], "cam_dimensions": [960, 540], "cam_reprojection_error": 1.22555}
+{"cam_distortion": -1.4509433333333335, "cam_fovy": 13.374133333333333, "cam_position": [4.814613333333333, 47.91413333333333, 113.42133333333334], "cam_rotation": [-0.39918366666666666, 0.3779713333333333, -0.006146240000000001], "cam_principal_point": [491.5303333333334, 312.966], "cam_dimensions": [960, 540], "cam_reprojection_error": 3.12951}
+{"cam_distortion": -1.40562, "cam_fovy": 13.6265, "cam_position": [3.90467, 47.1442, 111.543], "cam_rotation": [-0.40848, 0.379045, -0.00480266], "cam_principal_point": [497.696, 334.955], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.561091}
+{"cam_distortion": -1.35799, "cam_fovy": 13.2614, "cam_position": [4.72938, 47.9151, 113.93], "cam_rotation": [-0.395524, 0.380976, -0.0043821], "cam_principal_point": [500.94, 311.858], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.319878}
+{"cam_distortion": -1.36445, "cam_fovy": 13.1789, "cam_position": [5.12436, 48.3772, 114.601], "cam_rotation": [-0.396028, 0.388608, -0.00615087], "cam_principal_point": [492.358, 310.731], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0356825}
+{"cam_distortion": -1.4334, "cam_fovy": 13.2807, "cam_position": [4.87967, 48.3329, 114.127], "cam_rotation": [-0.393634, 0.3933, -0.00603947], "cam_principal_point": [489.501, 302.927], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.134435}
+{"cam_distortion": -1.47674, "cam_fovy": 12.9917, "cam_position": [5.77989, 48.9701, 116.191], "cam_rotation": [-0.38209, 0.401422, -0.00785555], "cam_principal_point": [478.88, 279.848], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0255683}
+{"cam_distortion": -1.53203, "cam_fovy": 13.2987, "cam_position": [4.77611, 48.4097, 114.167], "cam_rotation": [-0.38901, 0.404988, -0.00658163], "cam_principal_point": [477.175, 291.942], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.340856}
+{"cam_distortion": -1.51673, "cam_fovy": 13.2179, "cam_position": [5.10654, 48.4861, 114.553], "cam_rotation": [-0.388064, 0.409866, -0.00745459], "cam_principal_point": [476.147, 292.305], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.282702}
+{"cam_distortion": -1.47235, "cam_fovy": 13.2651, "cam_position": [4.8276, 48.2047, 114.188], "cam_rotation": [-0.387, 0.410507, -0.00755443], "cam_principal_point": [479.619, 292.198], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.367537}
+{"cam_distortion": -1.47481, "cam_fovy": 13.1722, "cam_position": [5.24818, 48.51, 114.829], "cam_rotation": [-0.384555, 0.41657, -0.00879587], "cam_principal_point": [473.338, 286.234], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.142947}
+{"cam_distortion": -1.53277, "cam_fovy": 13.2214, "cam_position": [5.27036, 48.6032, 114.702], "cam_rotation": [-0.383435, 0.419256, -0.00853592], "cam_principal_point": [473.936, 282.07], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.179416}
+{"cam_distortion": -1.56443, "cam_fovy": 13.2841, "cam_position": [5.04146, 48.4353, 114.322], "cam_rotation": [-0.382001, 0.420199, -0.00791325], "cam_principal_point": [476.366, 279.53], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.239295}
+{"cam_distortion": -1.57494, "cam_fovy": 13.2559, "cam_position": [5.18372, 48.5766, 114.591], "cam_rotation": [-0.380631, 0.423413, -0.00832046], "cam_principal_point": [473.412, 276.077], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.254923}
+{"cam_distortion": -1.57732, "cam_fovy": 13.2365, "cam_position": [5.27138, 48.6295, 114.763], "cam_rotation": [-0.379361, 0.424307, -0.00782645], "cam_principal_point": [476.703, 274.578], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.239089}
+{"cam_distortion": -1.55353, "cam_fovy": 13.2107, "cam_position": [5.33631, 48.6075, 114.828], "cam_rotation": [-0.377393, 0.428013, -0.00910905], "cam_principal_point": [472.57, 270.498], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.17942}
+{"cam_distortion": -1.63102, "cam_fovy": 13.2578, "cam_position": [5.26008, 48.6959, 114.731], "cam_rotation": [-0.379039, 0.428986, -0.00792803], "cam_principal_point": [474.864, 273.822], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.246994}
+{"cam_distortion": -1.55066, "cam_fovy": 13.2168, "cam_position": [5.30814, 48.6031, 114.813], "cam_rotation": [-0.377631, 0.430849, -0.00888659], "cam_principal_point": [474.303, 272.173], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.164023}
+{"cam_distortion": -1.59528, "cam_fovy": 13.267, "cam_position": [5.1889, 48.6119, 114.582], "cam_rotation": [-0.379197, 0.432305, -0.00777986], "cam_principal_point": [476.519, 275.204], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.240613}
+{"cam_distortion": -1.52742, "cam_fovy": 13.2131, "cam_position": [5.31288, 48.5748, 114.775], "cam_rotation": [-0.377007, 0.434503, -0.00897698], "cam_principal_point": [475.945, 271.225], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.178368}
+{"cam_distortion": -1.55988, "cam_fovy": 13.1691, "cam_position": [5.51791, 48.8321, 115.241], "cam_rotation": [-0.377266, 0.436389, -0.0089329], "cam_principal_point": [476.249, 271.108], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.179372}
+{"cam_distortion": -1.6075, "cam_fovy": 13.3221, "cam_position": [5.05682, 48.4646, 114.199], "cam_rotation": [-0.377556, 0.438826, -0.00816493], "cam_principal_point": [477.03, 270.796], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.247963}
+{"cam_distortion": -1.60322, "cam_fovy": 13.2466, "cam_position": [5.28019, 48.6965, 114.78], "cam_rotation": [-0.379007, 0.440821, -0.00818346], "cam_principal_point": [476.724, 274.495], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.25221}
+{"cam_distortion": -1.46594, "cam_fovy": 13.2627, "cam_position": [5.07138, 48.2298, 114.279], "cam_rotation": [-0.380046, 0.44269, -0.0102731], "cam_principal_point": [476.745, 279.031], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.268228}
+{"cam_distortion": -1.43594, "cam_fovy": 13.0741, "cam_position": [5.818, 48.9312, 115.788], "cam_rotation": [-0.374271, 0.449041, -0.0127259], "cam_principal_point": [466.001, 262.851], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0161031}
+{"cam_distortion": -1.61524, "cam_fovy": 13.2902, "cam_position": [5.22219, 48.6325, 114.526], "cam_rotation": [-0.377268, 0.446998, -0.00840375], "cam_principal_point": [480.026, 269.721], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.262132}
+{"cam_distortion": -1.42399, "cam_fovy": 13.1584, "cam_position": [5.36985, 48.5022, 114.998], "cam_rotation": [-0.37953, 0.450718, -0.010829], "cam_principal_point": [472.91, 278.085], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.143693}
+{"cam_distortion": -1.38774, "cam_fovy": 13.1548, "cam_position": [5.4068, 48.4093, 114.957], "cam_rotation": [-0.378897, 0.453817, -0.0122547], "cam_principal_point": [470.677, 276.491], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.117005}
+{"cam_distortion": -1.47005, "cam_fovy": 13.2287, "cam_position": [5.1879, 48.3487, 114.557], "cam_rotation": [-0.382154, 0.454298, -0.0102681], "cam_principal_point": [475.428, 284.07], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.210527}
+{"cam_distortion": -1.62496, "cam_fovy": 13.4038, "cam_position": [4.67751, 48.1478, 113.619], "cam_rotation": [-0.382484, 0.451684, -0.00581689], "cam_principal_point": [488.62, 284.99], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.341761}
+{"cam_distortion": -1.41525, "cam_fovy": 13.1401, "cam_position": [5.43816, 48.5234, 115.16], "cam_rotation": [-0.377851, 0.45951, -0.0118391], "cam_principal_point": [470.694, 273.702], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.163066}
+{"cam_distortion": -1.34322, "cam_fovy": 13.2062, "cam_position": [5.14379, 48.2097, 114.498], "cam_rotation": [-0.382306, 0.464138, -0.0131922], "cam_principal_point": [464.814, 283.304], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.164235}
+{"cam_distortion": -1.39959, "cam_fovy": 13.2389, "cam_position": [5.08691, 48.2515, 114.358], "cam_rotation": [-0.383769, 0.46499, -0.011746], "cam_principal_point": [468.767, 286.11], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.164395}
+{"cam_distortion": -1.44414, "cam_fovy": 13.2709, "cam_position": [4.94901, 48.2184, 114.252], "cam_rotation": [-0.383976, 0.463909, -0.0099031], "cam_principal_point": [475.642, 287.519], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.210206}
+{"cam_distortion": -1.35409, "cam_fovy": 13.245, "cam_position": [4.99834, 48.0869, 114.222], "cam_rotation": [-0.385934, 0.470869, -0.0127708], "cam_principal_point": [463.402, 291.283], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.158474}
+{"cam_distortion": -1.29349, "cam_fovy": 13.1223, "cam_position": [5.5483, 48.4816, 115.155], "cam_rotation": [-0.378996, 0.476835, -0.0160731], "cam_principal_point": [453.538, 272.178], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0868191}
+{"cam_distortion": -1.36142, "cam_fovy": 13.2833, "cam_position": [4.98968, 48.1125, 114.021], "cam_rotation": [-0.384123, 0.477454, -0.0136016], "cam_principal_point": [459.981, 284.998], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.147432}
+{"cam_distortion": -1.55223, "cam_fovy": 13.2959, "cam_position": [5.18873, 48.559, 114.36], "cam_rotation": [-0.381061, 0.475327, -0.00961704], "cam_principal_point": [474.02, 277.322], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0911142}
+{"cam_distortion": -1.84512, "cam_fovy": 13.6638, "cam_position": [4.03072, 47.9018, 112.212], "cam_rotation": [-0.384222, 0.469136, -0.00151095], "cam_principal_point": [499.924, 286.718], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.326342}
+{"cam_distortion": -1.54719, "cam_fovy": 13.3867, "cam_position": [4.55432, 47.8387, 113.472], "cam_rotation": [-0.386134, 0.474425, -0.00735535], "cam_principal_point": [487.406, 295.605], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.329865}
+{"cam_distortion": -1.44239, "cam_fovy": 13.1124, "cam_position": [6.00982, 49.074, 115.724], "cam_rotation": [-0.374377, 0.491996, -0.0164607], "cam_principal_point": [451.263, 255.568], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.015352}
+{"cam_distortion": -1.68213, "cam_fovy": 13.5396, "cam_position": [4.2323, 47.7801, 112.677], "cam_rotation": [-0.383817, 0.479077, -0.00511154], "cam_principal_point": [493.179, 286.636], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.342439}
+{"cam_distortion": -1.41004, "cam_fovy": 13.2811, "cam_position": [5.06501, 48.2838, 114.247], "cam_rotation": [-0.383404, 0.494474, -0.0143277], "cam_principal_point": [457.812, 279.836], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.196852}
+{"cam_distortion": -1.30727, "cam_fovy": 13.0882, "cam_position": [5.98317, 48.8621, 115.712], "cam_rotation": [-0.375451, 0.505226, -0.0206092], "cam_principal_point": [437.002, 256.287], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0585199}
+{"cam_distortion": -1.35779, "cam_fovy": 13.4083, "cam_position": [4.4332, 47.822, 113.205], "cam_rotation": [-0.393738, 0.500521, -0.0132588], "cam_principal_point": [457.294, 304.45], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.153362}
+{"cam_distortion": -1.34576, "cam_fovy": 13.0873, "cam_position": [5.77585, 48.7481, 115.657], "cam_rotation": [-0.379595, 0.506352, -0.0176541], "cam_principal_point": [446.409, 269.758], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0652949}
+{"cam_distortion": -1.40783, "cam_fovy": 12.9671, "cam_position": [6.51796, 49.4806, 116.953], "cam_rotation": [-0.369084, 0.511906, -0.0189743], "cam_principal_point": [439.802, 240.583], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0308818}
+{"cam_distortion": -1.36821, "cam_fovy": 13.4164, "cam_position": [4.31704, 47.697, 113.156], "cam_rotation": [-0.393881, 0.50884, -0.0134176], "cam_principal_point": [456.461, 305.524], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.255485}
+{"cam_distortion": -1.2963049999999998, "cam_fovy": 12.97625, "cam_position": [5.751250000000001, 48.833600000000004, 115.816], "cam_rotation": [-0.383061, 0.5182235, -0.018458], "cam_principal_point": [434.9425, 275.442], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.176134}
+{"cam_distortion": -1.2244, "cam_fovy": 12.5361, "cam_position": [7.18546, 49.9702, 118.476], "cam_rotation": [-0.372241, 0.527607, -0.0234984], "cam_principal_point": [413.424, 245.36], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0375671}
+{"cam_distortion": -1.42436, "cam_fovy": 12.3455, "cam_position": [6.80373, 49.6114, 117.272], "cam_rotation": [-0.377529, 0.522664, -0.0175374], "cam_principal_point": [440.084, 263.414], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0383505}
+{"cam_distortion": -1.50744, "cam_fovy": 12.3735, "cam_position": [5.39964, 48.3797, 114.365], "cam_rotation": [-0.390257, 0.521034, -0.0142659], "cam_principal_point": [457.971, 298.047], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.467359}
+{"cam_distortion": -1.09279, "cam_fovy": 11.4965, "cam_position": [8.63175, 50.4714, 119.41], "cam_rotation": [-0.363156, 0.564761, -0.043329], "cam_principal_point": [331.268, 192.879], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.393852}
+{"cam_distortion": -1.76676, "cam_fovy": 11.4923, "cam_position": [6.88118, 49.6989, 116.35], "cam_rotation": [-0.375402, 0.524711, -0.0149963], "cam_principal_point": [464.508, 251.785], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.231596}
+{"cam_distortion": -1.6589, "cam_fovy": 11.12785, "cam_position": [6.771945, 49.3968, 116.316], "cam_rotation": [-0.376155, 0.533216, -0.0205696], "cam_principal_point": [439.4235, 250.245], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.393506}
+{"cam_distortion": -1.55104, "cam_fovy": 10.7634, "cam_position": [6.66271, 49.0947, 116.282], "cam_rotation": [-0.376908, 0.541721, -0.0261429], "cam_principal_point": [414.339, 248.705], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.0538538}
+{"cam_distortion": -2.41872, "cam_fovy": 10.4329, "cam_position": [6.38623, 49.5392, 117.185], "cam_rotation": [-0.359026, 0.525192, -0.0101611], "cam_principal_point": [464.422, 211.885], "cam_dimensions": [960, 540], "cam_reprojection_error": 0.456218}
