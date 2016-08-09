@@ -30,7 +30,7 @@ void error_callback(int error, const char* description) {
 
 // Window dimensions
 const glm::vec2 SCREEN_SIZE(960, 540);
-
+//const glm::vec2 SCREEN_SIZE(800, 800);
 
 // The MAIN function, from here we start the application and run the viz loop
 int main()
@@ -73,14 +73,31 @@ int main()
     // Build and compile our shader program
     Shader shader("shaders/shader.vs", "shaders/shader.fs");
 
-
     // Set up vertex data (and buffer(s)) and attribute pointers
+    // GLfloat vertices[] = {
+    //     // Positions          // Texture Coords
+    //      1.0f,  1.0f, 0.0f,   1.0f, 1.0f, // Top Right
+    //      1.0f, -1.0f, 0.0f,   1.0f, 0.0f, // Bottom Right
+    //     -1.0f, -1.0f, 0.0f,   0.0f, 0.0f, // Bottom Left
+    //     -1.0f,  1.0f, 0.0f,   0.0f, 1.0f  // Top Left
+    // };
+
+    // These coordinates expect the texture to be loaded in with SQUARE dimensions.
+    // This will load the texture in, squeezing it into dimensions where the conversion
+    // factor is 60 yards = 1 local space coordinate unit.
+    GLfloat halfWidth = 120.0f/2.0f;
+    GLfloat halfLength = 53.33f/2.0f;
+    GLfloat normWidth = 1.0f;
+    GLfloat normLength = (GLfloat)halfLength/halfWidth;
+    normWidth = halfWidth;
+    normLength = halfLength;
+
     GLfloat vertices[] = {
-        // Positions          // Texture Coords
-         1.0f,  1.0f, 0.0f,   1.0f, 1.0f, // Top Right
-         1.0f, -1.0f, 0.0f,   1.0f, 0.0f, // Bottom Right
-        -1.0f, -1.0f, 0.0f,   0.0f, 0.0f, // Bottom Left
-        -1.0f,  1.0f, 0.0f,   0.0f, 1.0f  // Top Left
+          // Positions          // Texture Coords
+          normWidth,  normLength, 0.0f,   1.0f, 1.0f, // Top Right
+          normWidth, -normLength, 0.0f,   1.0f, 0.0f, // Bottom Right
+         -normWidth, -normLength, 0.0f,   0.0f, 0.0f, // Bottom Left
+         -normWidth,  normLength, 0.0f,   0.0f, 1.0f  // Top Left
     };
     GLuint indices[] = {  // Note that we start from 0!
         0, 1, 3, // First Triangle
@@ -111,7 +128,6 @@ int main()
 
     // Load and create a texture
     GLuint texture1;
-    //GLuint texture2;
     // ====================
     // Texture 1
     // ====================
@@ -126,7 +142,8 @@ int main()
     // Load, create texture and generate mipmaps
     int width, height;
     unsigned char* image = SOIL_load_image(
-      "2015091301_63_90_scaled.png", &width, &height, 0, SOIL_LOAD_RGB);
+      "2015110200_133_60_scaled.png", &width, &height, 0, SOIL_LOAD_RGB);
+      //"2015091301_63_90_scaled.png", &width, &height, 0, SOIL_LOAD_RGB);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
     glGenerateMipmap(GL_TEXTURE_2D);
     SOIL_free_image_data(image);
@@ -148,32 +165,31 @@ int main()
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, texture1);
         glUniform1i(glGetUniformLocation(shader.Program, "ourTexture1"), 0);
-        //glActiveTexture(GL_TEXTURE1);
-        //glBindTexture(GL_TEXTURE_2D, texture2);
-        //glUniform1i(glGetUniformLocation(shader.Program, "ourTexture2"), 1);
 
         // Activate shader
         shader.Use();
-
 
         ////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////
         ///// Input params from calibration file play 0133 /////
         ////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////
-        GLfloat camFovy = 8.4273f; // degrees
+        GLfloat camFovy = glm::radians(8.4273f); // degrees
+        GLfloat camFovx = camFovy * ((GLfloat)SCREEN_SIZE.x/(GLfloat)SCREEN_SIZE.y);
+        //camFovy = camFovx;
 
-        GLfloat scale = 120.0f;
-        GLfloat camX = 6.2938f/scale;
-        GLfloat camY = 49.670f/scale;
-        GLfloat camZ = 118.246f/scale;
+        GLfloat camX = 6.2938f;
+        GLfloat camY = -49.670f;
+        GLfloat camZ =  118.246f;
 
-        GLfloat camRotX = -0.036645f;
-        GLfloat camRotY = 0.26697f;
+        GLfloat camRotX = -0.36645f;
+        GLfloat camRotY =  0.26697f;
         GLfloat camRotZ = -0.0044779f;
 
-        GLfloat camPrincPointX = 512.732f/SCREEN_SIZE.x;
-        GLfloat camPrincPointY = 214.948f/SCREEN_SIZE.y;
+        GLfloat camPrincPointX = 512.73f;
+        GLfloat camPrincPointY = 214.948f;
+        camPrincPointX = -22.0f;//(camPrincPointX - SCREEN_SIZE.x/2.0f)/SCREEN_SIZE.x;
+        camPrincPointY = 7.0f;//(camPrincPointY - SCREEN_SIZE.y/2.0f)/SCREEN_SIZE.y;
 
 
         glm::mat4 view;
@@ -188,7 +204,7 @@ int main()
         glm::mat4 projection;
         // params: fovy (degrees), width/height aspect ratio, near, far clipping
         projection = glm::perspective(
-          camFovy, (GLfloat)SCREEN_SIZE.x/(GLfloat)SCREEN_SIZE.y, 0.1f, 10000.0f);
+          camFovx, (GLfloat)SCREEN_SIZE.x/(GLfloat)SCREEN_SIZE.y, 0.1f, 1000.0f);
 
         // Model:
         glm::mat4 model;
@@ -197,19 +213,29 @@ int main()
         model = glm::rotate(model, camRotY, glm::vec3(0.0f, 1.0f, 0.0f));
         model = glm::rotate(model, camRotZ, glm::vec3(0.0f, 0.0f, 1.0f));
 
+
         // Reset all to identity (no projections of any kind)
         //view = glm::mat4(1.0);
         //model = glm::mat4(1.0);
         //projection = glm::mat4(1.0);
 
-        // Get uniform locations:
-        GLint modelLoc = glGetUniformLocation(shader.Program, "model");
-        GLint viewLoc = glGetUniformLocation(shader.Program, "view");
-        GLint projLoc = glGetUniformLocation(shader.Program, "projection");
-        // Pass matrices to shader
-        glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
-        glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projection));
-        glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+        // // Get uniform locations:
+        // GLint modelLoc = glGetUniformLocation(shader.Program, "model");
+        // GLint viewLoc = glGetUniformLocation(shader.Program, "view");
+        // GLint projLoc = glGetUniformLocation(shader.Program, "projection");
+        // // Pass matrices to shader
+        // glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+        // glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projection));
+        // glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+
+        glm::mat4 mvpMat = projection * view * model;
+
+        // Get uniform location:
+        GLint mvpMatLoc = glGetUniformLocation(shader.Program, "mvpMat");
+
+        // Pass to shader:
+        glUniformMatrix4fv(mvpMatLoc, 1, GL_FALSE, glm::value_ptr(mvpMat));
+
 
         // Draw container
         glBindVertexArray(VAO);
